@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 238, 238);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #1B244A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 50px;
+    padding-top: 10%;
+}
+
+.home-container, .guest-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container>h3 , .guest-container> h3 {
+    font-size: 2em;
+    padding-left: 20px;;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+button {
+    border: 1px solid whitesmoke;
+    padding: 15px 20px;
+    background: #1B244A;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.scoreboard {
+    background: black;
+    color: rgb(134, 1, 1);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.scoreboard>h2 {
+    font-size: 7rem;
+}
+
+.btn-grp {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#newgame {
+    display: inline-block;
+    color: black;
+    background: lightgreen;
+    font-size: 1.5em;
+    text-align: center;
+    height:80px;
+    flex: 0 0 70%;
+    font-weight: bold;
+    
+}
+
